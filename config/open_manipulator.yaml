@@ -1,0 +1,18 @@
+##
+## - collada_joint_name : euslisp_joint_name (start with :)
+##
+
+rarm:
+  - joint1   : arm-joint1
+  - joint2   : arm-joint2
+  - joint3   : arm-joint3
+  - joint4   : arm-joint4
+
+## end-coords
+rarm-end-coords:
+  parent : end_effector_link
+
+## reset-pose
+angle-vector:
+  reset-pose : [0.0, -67.61, 35.52, 32.54]
+
