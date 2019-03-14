@@ -3,10 +3,10 @@
 ##
 
 rarm:
-  - joint1   : arm-joint1
-  - joint2   : arm-joint2
-  - joint3   : arm-joint3
-  - joint4   : arm-joint4
+  - joint1   : rarm-joint1
+  - joint2   : rarm-joint2
+  - joint3   : rarm-joint3
+  - joint4   : rarm-joint4
 
 ## end-coords
 rarm-end-coords:
