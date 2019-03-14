@@ -7,6 +7,8 @@ rarm:
   - joint2   : rarm-joint2
   - joint3   : rarm-joint3
   - joint4   : rarm-joint4
+  - joint5   : rarm-joint5
+  - joint6   : rarm-joint6
 
 ## end-coords
 rarm-end-coords:
@@ -14,5 +16,5 @@ rarm-end-coords:
 
 ## reset-pose
 angle-vector:
-  reset-pose : [0.0, -67.61, 35.52, 32.54]
+  reset-pose : [0.0, -67.61, 35.52, 0.0, 32.54, 0.0]
 

@@ -22,7 +22,7 @@
     (list (cons :controller-action "arm_controller/follow_joint_trajectory")
           (cons :controller-state "arm_controller/state")
           (cons :action-type control_msgs::followjointtrajectoryaction)
-          (cons :joint-names '("joint1" "joint2" "joint3" "joint4")))))
+          (cons :joint-names '("joint1" "joint2" "joint3" "joint4" "joint5" "joint6")))))
   (:default-controller nil
    (send self :arm-controller))
   (:move-gripper (pos)
